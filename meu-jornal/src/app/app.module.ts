@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { AlertaComponent } from './alerta/alerta.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
     TopoComponent,
     RodapeComponent,
     NoticiasComponent,
+    AlertaComponent,
   ],
   imports: [
     BrowserModule

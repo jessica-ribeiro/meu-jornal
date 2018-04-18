@@ -23,7 +23,9 @@ export class NoticiasComponent implements OnInit {
   public esconderNoticia() {
     this.mostrarNoticia = false;
   }
+  public voltarNoticia() {
+    this.mostrarNoticia = true;
+  }
 
- 
 
 }
