@@ -13,9 +13,17 @@ export class NoticiasComponent implements OnInit {
     "Noticia 3",
     "Noticia 4"];
 
+  mostrarNoticia: boolean = true;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  public esconderNoticia() {
+    this.mostrarNoticia = false;
+  }
+
+ 
 
 }
