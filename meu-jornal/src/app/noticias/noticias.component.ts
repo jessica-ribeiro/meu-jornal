@@ -14,6 +14,11 @@ export class NoticiasComponent implements OnInit {
     "Noticia 4"];
 
   mostrarNoticia: boolean = true;
+   
+  titutlo: string = 'Curso Angular';
+  texto: string = "Utilizando String Interpolation";
+
+  caminho_imagem: string ='../../assets/panda.jpg';
 
   constructor() { }
 
